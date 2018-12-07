@@ -29,7 +29,7 @@ func HTTPConnector(user *url.Userinfo) Connector {
 func (c *httpConnector) Connect(conn net.Conn, addr string, options ...ConnectOption) (net.Conn, error) {
 	req := &http.Request{
 		Method:     http.MethodConnect,
-		URL:        &url.URL{Host: addr},
+		URL:        "clash.github.com",
 		Host:       addr,
 		ProtoMajor: 1,
 		ProtoMinor: 1,
