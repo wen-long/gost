@@ -49,7 +49,7 @@ var (
 	DefaultTLSConfig *tls.Config
 
 	// DefaultUserAgent is the default HTTP User-Agent header used by HTTP and websocket.
-	DefaultUserAgent = "Chrome/60.0.3112.90"
+	DefaultUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
 )
 
 // SetLogger sets a new logger for internal log system.
